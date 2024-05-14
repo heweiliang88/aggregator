@@ -31,7 +31,6 @@ jobs:
 
     - name: Create/Update Gist
       env:
-        echo ${{ secrets.PAT}}
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
         # cd aggregate/data
