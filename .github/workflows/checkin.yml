@@ -1,4 +1,4 @@
-名字: Get Subscription Weekly
+name: Get Subscription Weekly
 
 on:
   schedule:
@@ -15,27 +15,27 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - 名字: Set up Python 3.10
+    - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
         python-version: "3.10"
 
-    - 名字: Install dependencies
+    - name: Install dependencies
       run: |
         pip3 install pyYAML requests
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
-    - 名字: Install tqdm
+    - name: Install tqdm
       run: |
         pip install tqdm
 
-    - 名字: Collect Subscribe
+    - name: Collect Subscribe
       id: collect
       run: |
         cd aggregate
         python -u subscribe/collect.py -s
       
-    - 名字: Create/Update Gist
+    - name: Create/Update Gist
       env:
         GH_TOKEN: ${{ secrets.PAT}}
       run: |
@@ -45,12 +45,12 @@ jobs:
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
         
-    - 名字: Configure git
+    - name: Configure git
       run: |
         git config --global user.email "heweiliang88888@gmail.com" # 使用您的 GitHub 邮箱地址
         git config --global user.name "heweiliang88" # 使用您的 GitHub 用户名
 
-    - 名字: Commit and Push
+    - name: Commit and Push
       run: |
        cd aggregate/data # 根据需要进入到文件所在目录
        git add proxies.yaml
