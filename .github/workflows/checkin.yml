@@ -30,6 +30,12 @@ jobs:
         pip install tqdm
 
 
+    - name: Collect Subscribe
+      id: collect
+      run: |
+        python -u subscribe/collect.py -s
+
+
     - name: Create/Update Gist
       env:
         GH_TOKEN: ${{ secrets.PAT}}
@@ -39,13 +45,6 @@ jobs:
         gh gist edit ${{ secrets.GIST_ID }} --add "subscribes.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "domains.txt"
         gh gist edit ${{ secrets.GIST_ID }} --add "valid-domains.txt"
-
-
-    - name: Collect Subscribe
-      id: collect
-      run: |
-        python -u subscribe/collect.py -s
-
 
     - name: Configure git
       run: |
