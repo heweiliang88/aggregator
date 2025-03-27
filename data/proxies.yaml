@@ -1,97 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 中国-香港-F1-001
-  network: ws
-  port: 21030
-  server: 212.192.12.56
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 中国-香港-F2-001
-  network: ws
-  port: 22030
-  server: 212.192.12.73
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 中国-香港-F3-001
-  network: ws
-  port: 23030
-  server: 212.192.13.68
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-莫斯科-F1-001
-  network: ws
-  port: 21026
-  server: 176.32.35.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-莫斯科-F2-001
-  network: ws
-  port: 22031
-  server: 46.17.43.122
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 俄罗斯-莫斯科-F3-001
-  network: ws
-  port: 23030
-  server: 195.133.5.127
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 加拿大-多伦多-001
-  network: ws
-  port: 20031
-  server: 50.114.177.234
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
   name: 加拿大1
   port: 45064
   server: haa.dashuai.cyou
@@ -99,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -109,7 +18,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -119,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -129,17 +38,17 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - cipher: chacha20-ietf-poly1305
   name: 台湾 1
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20032
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾01
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 47564
   server: gy.666666222.shop
   type: ss
@@ -153,7 +62,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -163,20 +72,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 20031
-  server: 5.39.252.72
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -186,7 +82,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -196,31 +92,31 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - cipher: chacha20-ietf-poly1305
   name: 日本01
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20002
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本02
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20004
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本03
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20006
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本04
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20008
   server: gy.666666222.shop
   type: ss
@@ -234,7 +130,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -244,7 +140,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -254,7 +150,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -264,7 +160,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -274,7 +170,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -284,7 +180,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -294,7 +190,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -304,88 +200,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约01
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20013
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 美国 纽约2
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20016
   server: gy.666666222.shop
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-001
-  network: ws
-  port: 443
-  server: biazh.mmzhk.website
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    headers:
-      Host: biazh.mmzhk.website
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-001
-  network: ws
-  port: 20030
-  server: 207.90.238.136
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-F1-001
-  network: ws
-  port: 21011
-  server: 207.90.236.21
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-F2-001
-  network: ws
-  port: 22002
-  server: 207.90.237.179
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-F3-001
-  network: ws
-  port: 23011
-  server: 207.90.237.96
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 92ab6d2b-a852-41c9-8530-8d0770eb5e95
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -395,7 +224,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -405,7 +234,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -415,7 +244,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -425,7 +254,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -435,7 +264,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -445,9 +274,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - name: 韩国-三网优化2
-  password: f4091684-b5c9-4af7-a2de-f25d51535814
+  password: cc2b2bc2-6e69-427a-9ed0-0f0e7860bf50
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -463,24 +292,24 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - cipher: chacha20-ietf-poly1305
   name: 香港01
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 34338
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港02
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20035
   server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港03
-  password: 4590177f-4e42-4e10-810c-277276188c37
+  password: 1cbaf757-9efd-4bf1-be01-1db08284591a
   port: 20052
   server: gy.666666222.shop
   type: ss
@@ -494,7 +323,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -504,7 +333,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -514,7 +343,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -524,19 +353,19 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e527fb38-32b0-4b58-8f13-3ca6b2c2cdf9
+  uuid: 3d8e741e-20d1-4302-a27a-f1cd9df821e9
 - alterId: 0
   cipher: auto
   name: 德国01-免费-1A
   network: ws
-  port: 8443
+  port: 2096
   server: de01.sh-cloudflare.sbs
   servername: de01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: e0440665-22b6-4e78-8d76-ca9a6aaca558
+  uuid: 64f220aa-3365-4474-b9b8-4cef9eed63ef
   ws-opts:
     headers:
       Host: de01.sh-cloudflare.sbs
@@ -545,14 +374,14 @@ proxies:
   cipher: auto
   name: 德国01-免费-1B
   network: ws
-  port: 8443
+  port: 2096
   server: de01.sh-cloudflare.sbs
   servername: de01.sh-cloudflare.sbs
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: 09cf3e9e-5a30-427c-8008-4b0765081018
+  uuid: aba99f0c-e24d-4598-b470-c0f7c7f67034
   ws-opts:
     headers:
       Host: de01.sh-cloudflare.sbs
@@ -568,7 +397,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: e0440665-22b6-4e78-8d76-ca9a6aaca558
+  uuid: 64f220aa-3365-4474-b9b8-4cef9eed63ef
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
@@ -584,7 +413,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 09cf3e9e-5a30-427c-8008-4b0765081018
+  uuid: aba99f0c-e24d-4598-b470-c0f7c7f67034
   ws-opts:
     headers:
       Host: us01.sh-cloudflare.sbs
