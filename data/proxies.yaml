@@ -3,13 +3,13 @@ proxies:
   cipher: auto
   name: 中国-香港-001
   network: ws
-  port: 23031
+  port: 23033
   server: 212.192.12.154
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 085cbb71-afef-425d-95e8-ff8f872f1f93
+  uuid: 63dd1325-d376-462f-ad64-ef8f7bf76b6b
   ws-opts:
     path: /
 - alterId: 0
@@ -21,7 +21,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -31,7 +31,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -41,7 +41,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -51,7 +51,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -61,7 +61,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -71,7 +71,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 德国-法兰克福-001
@@ -82,7 +82,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 085cbb71-afef-425d-95e8-ff8f872f1f93
+  uuid: 63dd1325-d376-462f-ad64-ef8f7bf76b6b
   ws-opts:
     path: /
 - alterId: 0
@@ -94,7 +94,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -104,7 +104,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -114,7 +114,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -124,7 +124,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -134,7 +134,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -144,7 +144,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -154,7 +154,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -164,7 +164,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -174,7 +174,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -184,7 +184,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 美国-拉斯维加斯-001
@@ -195,7 +195,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 085cbb71-afef-425d-95e8-ff8f872f1f93
+  uuid: 63dd1325-d376-462f-ad64-ef8f7bf76b6b
   ws-opts:
     path: /
 - alterId: 0
@@ -208,7 +208,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 085cbb71-afef-425d-95e8-ff8f872f1f93
+  uuid: 63dd1325-d376-462f-ad64-ef8f7bf76b6b
   ws-opts:
     path: /
 - alterId: 0
@@ -221,7 +221,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 085cbb71-afef-425d-95e8-ff8f872f1f93
+  uuid: 63dd1325-d376-462f-ad64-ef8f7bf76b6b
   ws-opts:
     path: /
 - alterId: 0
@@ -233,7 +233,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -243,7 +243,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -253,7 +253,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -263,7 +263,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -273,7 +273,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -283,9 +283,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - name: 韩国-三网优化2
-  password: b995a223-bd5f-41f2-8440-e6694dfd529c
+  password: 1941a205-e554-4989-aedb-ecc109a17650
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -301,7 +301,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -311,7 +311,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -321,7 +321,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -331,7 +331,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -341,4 +341,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2151130b-96c0-486d-9c46-5d7a3ba2ad8b
+  uuid: 747014cd-5d07-41ae-b1b4-5ad261b285eb
