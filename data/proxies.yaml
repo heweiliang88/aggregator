@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -28,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -38,7 +38,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -48,7 +48,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -58,37 +58,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
-- alterId: 0
-  cipher: auto
-  name: 巴西-FREE优化-CDN | 2X
-  network: ws
-  port: 80
-  server: tiamo3.tiamocloud.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b7eff1b6-1097-4bcc-b112-a77a755bf513
-  ws-opts:
-    headers:
-      Host: tiamo3.tiamocloud.us.kg
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 新加坡-FREE优化-CDN | 2X
-  network: ws
-  port: 80
-  server: tiamo2.tiamocloud.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b7eff1b6-1097-4bcc-b112-a77a755bf513
-  ws-opts:
-    headers:
-      Host: tiamo2.tiamocloud.us.kg
-    path: /
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -98,7 +68,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -108,7 +78,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -118,7 +88,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -128,7 +98,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -138,7 +108,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -148,7 +118,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -158,7 +128,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -168,7 +138,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -178,7 +148,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -188,21 +158,45 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
-  name: 美国-FREE优化-CDN | 2X
+  name: 美国-拉斯维加斯-001
   network: ws
-  port: 80
-  server: tiamo.tiamocloud.us.kg
+  port: 20035
+  server: 45.147.201.231
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: b7eff1b6-1097-4bcc-b112-a77a755bf513
+  uuid: 25bda39e-9ff1-4826-a34b-6f32366d3942
   ws-opts:
-    headers:
-      Host: tiamo.tiamocloud.us.kg
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国-拉斯维加斯-002
+  network: ws
+  port: 23087
+  server: 45.147.201.231
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 25bda39e-9ff1-4826-a34b-6f32366d3942
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国-纽约-001
+  network: ws
+  port: 22056
+  server: 45.147.201.231
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 25bda39e-9ff1-4826-a34b-6f32366d3942
+  ws-opts:
     path: /
 - alterId: 0
   cipher: auto
@@ -213,7 +207,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -223,7 +217,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -233,7 +227,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -243,22 +237,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
-- alterId: 0
-  cipher: auto
-  name: 荷兰-FREE优化-CDN | 2X
-  network: ws
-  port: 80
-  server: tiamo1.tiamocloud.us.kg
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b7eff1b6-1097-4bcc-b112-a77a755bf513
-  ws-opts:
-    headers:
-      Host: tiamo1.tiamocloud.us.kg
-    path: /
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -268,7 +247,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -278,9 +257,9 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - name: 韩国-三网优化2
-  password: eaec1f3c-5658-499d-b533-65ec5eb4e3da
+  password: 65af8c8d-3d49-42b2-85e0-44687e6fb873
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
@@ -296,7 +275,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 香港NO.1
@@ -306,7 +285,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -316,7 +295,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -326,7 +305,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -336,4 +315,4 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 30c5eeaa-b668-4e3e-93c0-0279070b2f61
+  uuid: ead8465d-b634-4b58-a42d-8186103f9643
