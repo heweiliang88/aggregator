@@ -8,7 +8,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 加拿大2
@@ -18,7 +18,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 印度1
@@ -28,7 +28,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 印度2
@@ -38,7 +38,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: aes-256-gcm
+  name: 印度尼西亚
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 22665
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 台湾1
@@ -48,7 +55,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 台湾2
@@ -58,7 +65,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: aes-256-gcm
+  name: 新加坡
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 17869
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 新加坡2
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 43147
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 新加坡NO.1
@@ -68,7 +89,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 新加坡NO.2
@@ -78,7 +99,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: aes-256-gcm
+  name: 日本
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 16540
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 日本2
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 39030
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 日本NO.1
@@ -88,7 +123,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 日本NO.2
@@ -98,7 +133,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 法国1
@@ -108,7 +143,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 法国2
@@ -118,7 +153,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: aes-256-gcm
+  name: 泰国
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 48494
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 泰国NO1
@@ -128,7 +170,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 泰国NO2
@@ -138,7 +180,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生1
@@ -148,7 +190,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 澳大利亚原生2
@@ -158,53 +200,21 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - cipher: chacha20-ietf-poly1305
   name: 爱尔兰-都柏林
-  password: 821ac0af-cd3c-4d1c-a704-f683c934c17e
+  password: a6a87acc-9365-4a9c-8af3-f8edbd83faee
   port: 22800
   server: 107.175.187.181
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-002
-  network: ws
-  port: 23132
-  server: 45.136.245.177
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-gcm
+  name: 美国1
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 29760
+  server: ddns.kuaiyun1.cn
+  type: ss
   udp: true
-  uuid: b5890a05-e60f-4a6f-becd-7cce3fb71887
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-拉斯维加斯-003
-  network: ws
-  port: 25016
-  server: 45.136.245.177
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5890a05-e60f-4a6f-becd-7cce3fb71887
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 美国-纽约-001
-  network: ws
-  port: 22083
-  server: 45.136.245.177
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: b5890a05-e60f-4a6f-becd-7cce3fb71887
-  ws-opts:
-    path: /
 - alterId: 0
   cipher: auto
   name: 美国NO.1
@@ -214,7 +224,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 美国NO.2
@@ -224,7 +234,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 英国1
@@ -234,7 +244,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 英国2
@@ -244,7 +254,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: aes-256-gcm
+  name: 韩国
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 30967
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO1
@@ -254,7 +271,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 韩国 专线NO2
@@ -264,30 +281,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - name: 韩国-三网优化2
-  password: 91ccc8cb-4591-4e32-b75a-6c90bb7c5526
+  password: e3ad9f1c-2870-4f9f-8ee1-ccd6d492a4f3
   port: 44732
   server: kr-qingyun.dwyun.me
   skip-cert-verify: true
   sni: kr-qingyun.dwyun.me
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 香港
-  port: 19901
-  server: xg.dashuai.cyou
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
 - cipher: chacha20-ietf-poly1305
   name: 香港-线路1
-  password: 821ac0af-cd3c-4d1c-a704-f683c934c17e
+  password: a6a87acc-9365-4a9c-8af3-f8edbd83faee
   port: 22800
   server: 156.224.77.215
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 香港2
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 15815
+  server: ddns.kuaiyun1.cn
   type: ss
   udp: true
 - alterId: 0
@@ -299,7 +313,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 香港NO.2
@@ -309,7 +323,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO1
@@ -319,7 +333,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
 - alterId: 0
   cipher: auto
   name: 马来西亚专线NO2
@@ -329,4 +343,329 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: acde0e7a-6020-43c3-8e40-d55f30a5abfe
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX01 TW-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 48444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX01 TW-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 48444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX02 HK-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 38444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX02 HK-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 38444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX03 HK-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 38445
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX03 HK-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 38445
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX04 SG-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 38446
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: NETFLIX04 SG-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 38446
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 34111
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 34111
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡01 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40013
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡01 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40013
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 28443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本01 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 28443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 28444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本02 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 28444
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 18443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本03 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 18443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本04 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 28445
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本04 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 28445
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国01 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40002
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国01 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40002
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国02 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40003
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国02 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40003
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国03 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40001
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国03 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40001
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国04 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40012
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国04 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40012
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国05 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40006
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国05 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40006
+  server: cu1-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国06 国外专用-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 28443
+  server: us4.moon6.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国06 国外专用-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 28443
+  server: us4.moon6.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国07 国外专用-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 28443
+  server: us5.moon6.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国07 国外专用-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 28443
+  server: us5.moon6.xyz
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  name: 香港-1A
+  password: 359fd5f8-8f48-4b0a-970a-6d65f06b0cfe
+  port: 32975
+  server: ddns.kuaiyun1.cn
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 香港-1B
+  port: 19901
+  server: xg.dashuai.cyou
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b65896b6-fcc8-4a2c-ab7b-35eb7cb4d4e2
+- cipher: chacha20-ietf-poly1305
+  name: 香港01 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 48445
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港01 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 48445
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 48446
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 48446
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港03 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40008
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港03 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40008
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港04 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 48443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港04 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 48443
+  server: cm33-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港05 专线-1A
+  password: db9599a8-0a24-4b51-b292-8d25a051789d
+  port: 40007
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港05 专线-1B
+  password: c6414251-f399-4466-8a00-4411f2d9298c
+  port: 40007
+  server: cm22-zz.moonwang.xyz
+  type: ss
+  udp: true
