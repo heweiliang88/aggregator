@@ -1,6 +1,6 @@
 proxies:
 - name: PC端如无法使用请点-TUN-视频体验
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 443
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -8,7 +8,7 @@ proxies:
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: 334d58e0-3205-478c-9e3b-1e586aaa8e3b
+  password: 5e402045-9d0d-4c66-a218-8e12b4cb806b
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -17,27 +17,27 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 中转美国1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 40063
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 冰岛 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 32009
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 印度 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 17254
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 台湾 1号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 22231
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -46,13 +46,13 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 台湾解锁 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 14187
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 台湾高速节点
-  password: 334d58e0-3205-478c-9e3b-1e586aaa8e3b
+  password: 5e402045-9d0d-4c66-a218-8e12b4cb806b
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -60,7 +60,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 334d58e0-3205-478c-9e3b-1e586aaa8e3b
+  password: 5e402045-9d0d-4c66-a218-8e12b4cb806b
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -68,7 +68,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 334d58e0-3205-478c-9e3b-1e586aaa8e3b
+  password: 5e402045-9d0d-4c66-a218-8e12b4cb806b
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -77,14 +77,14 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 墨西哥 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 48907
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 巴西 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 57577
   server: slur.izenny.com
   type: ss
@@ -99,7 +99,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4334c5e2-7c4b-4d3f-97f2-2610ba4aa743
+  uuid: 828e9360-30d4-4e23-a08b-fc23cb043fb6
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -114,7 +114,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4334c5e2-7c4b-4d3f-97f2-2610ba4aa743
+  uuid: 828e9360-30d4-4e23-a08b-fc23cb043fb6
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -129,7 +129,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4334c5e2-7c4b-4d3f-97f2-2610ba4aa743
+  uuid: 828e9360-30d4-4e23-a08b-fc23cb043fb6
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -144,13 +144,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4334c5e2-7c4b-4d3f-97f2-2610ba4aa743
+  uuid: 828e9360-30d4-4e23-a08b-fc23cb043fb6
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 新加坡 1号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 23311
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -159,13 +159,13 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 新加坡解锁 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 36199
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 日本 1号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 24421
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -173,7 +173,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 2号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 24422
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -181,7 +181,7 @@ proxies:
   type: trojan
   udp: true
 - name: 日本 3号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 24423
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -190,13 +190,13 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 日本1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 53387
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 美国 1号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 25501
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -204,7 +204,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国 2号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 25502
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -212,7 +212,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 334d58e0-3205-478c-9e3b-1e586aaa8e3b
+  password: 5e402045-9d0d-4c66-a218-8e12b4cb806b
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -221,20 +221,20 @@ proxies:
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 韩国 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 43295
   server: slur.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 香港 1 X1
-  password: b1c90af3-2de8-4d2a-86eb-30e01d79922b
+  password: b3c95424-43b7-4283-a136-b257f4d0aae9
   port: 55407
   server: slur.izenny.com
   type: ss
   udp: true
 - name: 香港 1号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 21101
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -242,7 +242,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 2号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 21102
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -250,7 +250,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 3号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 21103
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
@@ -258,177 +258,191 @@ proxies:
   type: trojan
   udp: true
 - name: 香港 4号线 NETFLIX等流媒体解锁 解锁
-  password: 52e515ca-5840-46bb-8328-4813ae240fe8
+  password: 75230c0a-4c03-43c5-bf64-a15c0cc0ded4
   port: 21115
   server: cdnfire.xiaomispeed.com
   skip-cert-verify: true
   sni: cdnfire.xiaomispeed.com
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US |美国01-1A
+  password: 525320bd-bd05-474f-bf8b-ddbe8d7f623e
+  port: 10001
+  server: jpa1softbank.fengwio.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: US |美国01-1B
+  password: 35eebdc5-c3aa-4f0a-bc81-5dbe9cd974f6
+  port: 10001
+  server: jpa1softbank.fengwio.top
+  type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: 台湾B|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29129
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 台湾B|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29129
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡A|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29120
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡A|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29120
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡B|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29136
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 新加坡B|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29136
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 日本A|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29101
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 日本A|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29101
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 日本B|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29132
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 日本B|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29132
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G-1A
-  password: 5ec79ae7-a840-474b-89ab-c22300afd2e8
+  password: 920e924a-f056-4c56-be5c-933f0934e0f6
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用一小时2G-1B
-  password: e5adac46-f4e8-4e35-950c-c296db46d7f5
+  password: 07fe27ce-35ac-4cf0-a87b-39eb76536628
   port: 26535
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾-1A
-  password: 5ec79ae7-a840-474b-89ab-c22300afd2e8
+  password: 920e924a-f056-4c56-be5c-933f0934e0f6
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-台湾-1B
-  password: e5adac46-f4e8-4e35-950c-c296db46d7f5
+  password: 07fe27ce-35ac-4cf0-a87b-39eb76536628
   port: 27689
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡-1A
-  password: 5ec79ae7-a840-474b-89ab-c22300afd2e8
+  password: 920e924a-f056-4c56-be5c-933f0934e0f6
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-新加坡-1B
-  password: e5adac46-f4e8-4e35-950c-c296db46d7f5
+  password: 07fe27ce-35ac-4cf0-a87b-39eb76536628
   port: 57884
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本-1A
-  password: 5ec79ae7-a840-474b-89ab-c22300afd2e8
+  password: 920e924a-f056-4c56-be5c-933f0934e0f6
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-日本-1B
-  password: e5adac46-f4e8-4e35-950c-c296db46d7f5
+  password: 07fe27ce-35ac-4cf0-a87b-39eb76536628
   port: 29571
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国-1A
-  password: 5ec79ae7-a840-474b-89ab-c22300afd2e8
+  password: 920e924a-f056-4c56-be5c-933f0934e0f6
   port: 47831
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: 试用节点-美国-1B
-  password: e5adac46-f4e8-4e35-950c-c296db46d7f5
+  password: 07fe27ce-35ac-4cf0-a87b-39eb76536628
   port: 47831
   server: jry.izenny.com
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港A|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29114
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港A|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29114
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港B|1X-1A
-  password: 41deaec5-ad32-48f7-b7d5-b115f0ed99ef
+  password: e8ee4593-f8ca-406d-bb44-5b28b792a2b3
   port: 29128
   server: 59.37.143.195
   type: ss
   udp: true
 - cipher: aes-256-gcm
   name: 香港B|1X-1B
-  password: defaa88f-d462-4b4c-b603-b3669731ab12
+  password: b575d347-775e-4403-8cec-eabdb36c3ffe
   port: 29128
   server: 59.37.143.195
   type: ss
