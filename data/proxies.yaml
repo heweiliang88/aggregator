@@ -9,11 +9,41 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: a8fe5ebc-197e-4e36-849e-157ffe9e9531
+  uuid: 75e8f31e-18e4-4cb0-a628-2f04151d0315
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- alterId: 0
+  cipher: auto
+  name: JAPAN-01
+  network: ws
+  port: 8443
+  server: 167.179.99.83
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2b4dd1e-70f3-42ea-86d1-4ff1912fc270
+  ws-opts:
+    path: /ray
+- cipher: aes-256-gcm
+  name: JAPAN-SS
+  password: b2b4dd1e-70f3-42ea-86d1-4ff1912fc270
+  port: 8445
+  server: 167.179.99.83
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SILICONVALLEY-01
+  port: 8444
+  server: 144.202.98.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: b2b4dd1e-70f3-42ea-86d1-4ff1912fc270
 - alterId: 0
   cipher: auto
   name: TTC9999 香港
@@ -24,28 +54,35 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 82189e01-d5c5-47a9-9c9a-f387cc1725ea
+  uuid: a043d527-d900-413f-bff7-25246bb58b0c
   ws-opts:
     headers:
       Host: ww2.ttc9999.com
     path: /v2ray
 - cipher: aes-128-gcm
-  name: YQ-ZEQ
+  name: Y3-EIT
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 41cae453-0a10-4b37-a711-b553d0c1b289
+  password: 3d339e29-d5ee-4157-ae30-13c77f842acb
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾大带宽线路L01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10033
+  server: cn.wepc.one
+  type: ss
+  udp: true
 - name: 台湾高速节点
-  password: 41cae453-0a10-4b37-a711-b553d0c1b289
+  password: 3d339e29-d5ee-4157-ae30-13c77f842acb
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -53,7 +90,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 41cae453-0a10-4b37-a711-b553d0c1b289
+  password: 3d339e29-d5ee-4157-ae30-13c77f842acb
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -61,7 +98,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 41cae453-0a10-4b37-a711-b553d0c1b289
+  password: 3d339e29-d5ee-4157-ae30-13c77f842acb
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -78,7 +115,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c16d4c6f-f83b-49d7-8078-e72225f4d33b
+  uuid: 258c87d3-95d8-47d1-b965-b5d12e908cae
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -93,7 +130,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c16d4c6f-f83b-49d7-8078-e72225f4d33b
+  uuid: 258c87d3-95d8-47d1-b965-b5d12e908cae
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -108,7 +145,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c16d4c6f-f83b-49d7-8078-e72225f4d33b
+  uuid: 258c87d3-95d8-47d1-b965-b5d12e908cae
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -123,24 +160,59 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: c16d4c6f-f83b-49d7-8078-e72225f4d33b
+  uuid: 258c87d3-95d8-47d1-b965-b5d12e908cae
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡线路L01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10023
+  server: cn.wepc.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本线路L01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10063
+  server: cn.wepc.one
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚线路L01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10013
+  server: cn.wepc.one
+  type: ss
+  udp: true
 - name: 美国加速器 01
-  password: c33d35b5-c6d8-4bdd-8e4d-fe1167ac6bc0
+  password: b5ba3837-4c3e-4fd7-a6c5-a2005967d0a7
   port: 8443
   server: hk01.wulink.net
   skip-cert-verify: true
   sni: hk01.wulink.net
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国线路L01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10043
+  server: cn.wepc.one
+  type: ss
+  udp: true
 - name: 美国高速节点1
-  password: 41cae453-0a10-4b37-a711-b553d0c1b289
+  password: 3d339e29-d5ee-4157-ae30-13c77f842acb
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港线路01
+  password: f116c13a-f078-443a-befe-126c39f92f8e
+  port: 10073
+  server: cn.wepc.one
+  type: ss
   udp: true
