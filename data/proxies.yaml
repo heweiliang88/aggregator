@@ -9,51 +9,58 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e763f43a-ef29-48b4-a561-bf747d376f4f
+  uuid: 20d6471b-53a3-46f8-b117-12a64551b9b6
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - alterId: 0
   cipher: auto
-  name: TTC9999 香港
+  name: JAPAN-01
   network: ws
-  port: 443
-  server: ww2.ttc9999.com
+  port: 8443
+  server: 167.179.99.83
   skip-cert-verify: true
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 1226b55c-abf8-4937-923d-08898863f7cf
+  uuid: bc6591c3-6a8d-46ae-ba55-b072c318c071
   ws-opts:
-    headers:
-      Host: ww2.ttc9999.com
-    path: /v2ray
+    path: /ray
+- cipher: aes-256-gcm
+  name: JAPAN-SS
+  password: bc6591c3-6a8d-46ae-ba55-b072c318c071
+  port: 8445
+  server: 167.179.99.83
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: SILICONVALLEY-01
+  port: 8444
+  server: 144.202.98.98
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: bc6591c3-6a8d-46ae-ba55-b072c318c071
 - cipher: aes-128-gcm
-  name: Y7-BRY
+  name: YD-DRA
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: cb0f49c0-c874-46b3-b5f1-c61810eced19
+  password: ea41101b-f3a0-4d32-951b-ce7ea3daf4db
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
-- name: 乌克兰
-  password: cd6227b4-b1df-44d6-b64a-16aa1fcd0bc3
-  port: 8527
-  server: sie624.node2.top
-  skip-cert-verify: true
-  sni: itunes.apple.com
-  type: trojan
-  udp: true
 - name: 台湾高速节点
-  password: cb0f49c0-c874-46b3-b5f1-c61810eced19
+  password: ea41101b-f3a0-4d32-951b-ce7ea3daf4db
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -61,7 +68,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: cb0f49c0-c874-46b3-b5f1-c61810eced19
+  password: ea41101b-f3a0-4d32-951b-ce7ea3daf4db
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -69,7 +76,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: cb0f49c0-c874-46b3-b5f1-c61810eced19
+  password: ea41101b-f3a0-4d32-951b-ce7ea3daf4db
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -86,7 +93,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 86d1c98c-61d4-4ecd-96e8-bb10554f7648
+  uuid: 340e52a5-e216-41e1-aeff-404507340555
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -101,7 +108,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 86d1c98c-61d4-4ecd-96e8-bb10554f7648
+  uuid: 340e52a5-e216-41e1-aeff-404507340555
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -116,7 +123,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 86d1c98c-61d4-4ecd-96e8-bb10554f7648
+  uuid: 340e52a5-e216-41e1-aeff-404507340555
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -131,13 +138,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 86d1c98c-61d4-4ecd-96e8-bb10554f7648
+  uuid: 340e52a5-e216-41e1-aeff-404507340555
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国加速器 01
-  password: 74ea7722-147f-45ea-9ae6-39323e6c52a8
+  password: 9afe3f4b-2f9f-4064-81fd-91397155e93c
   port: 8443
   server: hk01.wulink.net
   skip-cert-verify: true
@@ -145,18 +152,40 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: cb0f49c0-c874-46b3-b5f1-c61810eced19
+  password: ea41101b-f3a0-4d32-951b-ce7ea3daf4db
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- name: 香港-07
-  password: cd6227b4-b1df-44d6-b64a-16aa1fcd0bc3
-  port: 8527
-  server: sie711.node2.top
+- alterId: 0
+  cipher: auto
+  name: TTC9999 香港-1A
+  network: ws
+  port: 443
+  server: ww2.ttc9999.com
   skip-cert-verify: true
-  sni: itunes.apple.com
-  type: trojan
+  tls: true
+  type: vmess
   udp: true
+  uuid: ffa9798c-7f85-4e6d-abaa-8b6c13fde03a
+  ws-opts:
+    headers:
+      Host: ww2.ttc9999.com
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: TTC9999 香港-1B
+  network: ws
+  port: 443
+  server: ww2.ttc9999.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 4b10e231-10da-40b8-9a3c-7f92919d9f06
+  ws-opts:
+    headers:
+      Host: ww2.ttc9999.com
+    path: /v2ray
