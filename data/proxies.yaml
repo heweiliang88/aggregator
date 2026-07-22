@@ -9,20 +9,20 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 88fb4711-05b0-4f1e-bc21-b75d1978a614
+  uuid: 4be56429-a3f7-4355-a01a-d9f4fe1367b1
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: aes-128-gcm
-  name: YM-LHO
+  name: YD-XZW
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 0d36e44c-4d16-4930-b99e-d7c273eee581
+  password: bf16badd-7119-4e93-b597-952642988ccb
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 0d36e44c-4d16-4930-b99e-d7c273eee581
+  password: bf16badd-7119-4e93-b597-952642988ccb
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 0d36e44c-4d16-4930-b99e-d7c273eee581
+  password: bf16badd-7119-4e93-b597-952642988ccb
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,108 +46,18 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 0d36e44c-4d16-4930-b99e-d7c273eee581
+  password: bf16badd-7119-4e93-b597-952642988ccb
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 21bbdf48-45d1-4809-b786-e42e00969aa8
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 21bbdf48-45d1-4809-b786-e42e00969aa8
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 21bbdf48-45d1-4809-b786-e42e00969aa8
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 21bbdf48-45d1-4809-b786-e42e00969aa8
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
-    path: /
 - name: 美国高速节点1
-  password: 0d36e44c-4d16-4930-b99e-d7c273eee581
+  password: bf16badd-7119-4e93-b597-952642988ccb
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: TTC9999 香港-1A
-  network: ws
-  port: 443
-  server: ww2.ttc9999.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3064e090-1bea-4533-b930-e62ac4b1bc95
-  ws-opts:
-    headers:
-      Host: ww2.ttc9999.com
-    path: /v2ray
-- alterId: 0
-  cipher: auto
-  name: TTC9999 香港-1B
-  network: ws
-  port: 443
-  server: ww2.ttc9999.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 6d9c3752-5f54-40e1-83a3-3bc0ee868501
-  ws-opts:
-    headers:
-      Host: ww2.ttc9999.com
-    path: /v2ray
