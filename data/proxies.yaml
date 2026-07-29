@@ -9,20 +9,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6f244e86-c5de-4426-817b-b1eb3e3c2f73
+  uuid: f751d2de-26f9-4deb-866f-8c72048326a3
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: aes-128-gcm
-  name: YH-LJY
+  name: HONG KONG 01
+  password: 55882813-f5d4-4301-8c86-2ce9dc2393fb
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: YM-JSR
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 853dd562-2be8-440f-9a69-861b84194a4c
+  password: 8c693eae-e0a9-4cc2-b760-e7223cea7f8e
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +37,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 853dd562-2be8-440f-9a69-861b84194a4c
+  password: 8c693eae-e0a9-4cc2-b760-e7223cea7f8e
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +45,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 853dd562-2be8-440f-9a69-861b84194a4c
+  password: 8c693eae-e0a9-4cc2-b760-e7223cea7f8e
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,7 +53,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 853dd562-2be8-440f-9a69-861b84194a4c
+  password: 8c693eae-e0a9-4cc2-b760-e7223cea7f8e
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -54,7 +61,7 @@ proxies:
   type: trojan
   udp: true
 - name: 美国高速节点1
-  password: 853dd562-2be8-440f-9a69-861b84194a4c
+  password: 8c693eae-e0a9-4cc2-b760-e7223cea7f8e
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
