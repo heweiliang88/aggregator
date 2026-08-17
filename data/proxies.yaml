@@ -9,7 +9,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e4dbf3d0-57f7-427f-aa14-5cee67220de2
+  uuid: e72544cf-d032-432d-9432-ec5fb53c4c4a
   ws-opts:
     headers:
       Host: expired.example.com
@@ -25,20 +25,27 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: adc5b508-a817-4287-8290-141ec5afcc08
+  uuid: 7ea3cb49-b8f3-4ec6-9150-6c56a436b108
   ws-opts:
     headers:
       Host: m.cqwer.xyz
     path: /b3f8a2c1
 - cipher: aes-128-gcm
-  name: YO-EUT
+  name: HONG KONG 01
+  password: 10b1f5d2-002d-41e0-8b60-1cf0c1fa39b8
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: Y1-PIS
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 89aa7588-7b4f-4c8e-9fc4-c8f5accc13b7
+  password: 37f1688f-a8d7-4b6d-a92a-657716c20342
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -46,7 +53,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 89aa7588-7b4f-4c8e-9fc4-c8f5accc13b7
+  password: 37f1688f-a8d7-4b6d-a92a-657716c20342
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -54,7 +61,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 89aa7588-7b4f-4c8e-9fc4-c8f5accc13b7
+  password: 37f1688f-a8d7-4b6d-a92a-657716c20342
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -62,7 +69,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 89aa7588-7b4f-4c8e-9fc4-c8f5accc13b7
+  password: 37f1688f-a8d7-4b6d-a92a-657716c20342
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -79,7 +86,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 464e203b-7f2b-4bff-aec9-b6b0a8b16ae6
+  uuid: 6ffa285d-abc4-4806-8469-6663a1c5debd
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -94,7 +101,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 464e203b-7f2b-4bff-aec9-b6b0a8b16ae6
+  uuid: 6ffa285d-abc4-4806-8469-6663a1c5debd
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -109,7 +116,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 464e203b-7f2b-4bff-aec9-b6b0a8b16ae6
+  uuid: 6ffa285d-abc4-4806-8469-6663a1c5debd
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -124,16 +131,89 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 464e203b-7f2b-4bff-aec9-b6b0a8b16ae6
+  uuid: 6ffa285d-abc4-4806-8469-6663a1c5debd
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 日本 东京A
+  network: ws
+  port: 8080
+  server: 45.192.206.6
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f08275ba-2ca7-41de-b05b-38483ab2eab5
+  ws-opts:
+    headers:
+      Host: images-na.ssl-images-amazon.com
+    path: /image
+- alterId: 0
+  cipher: auto
+  name: 日本 东京B
+  network: ws
+  port: 8080
+  server: 45.192.206.2
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f08275ba-2ca7-41de-b05b-38483ab2eab5
+  ws-opts:
+    headers:
+      Host: images-na.ssl-images-amazon.com
+    path: /image
+- alterId: 0
+  cipher: auto
+  name: 美国 加利福尼亚州 洛杉矶
+  network: ws
+  port: 8080
+  server: 185.227.252.204
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f08275ba-2ca7-41de-b05b-38483ab2eab5
+  ws-opts:
+    path: /
 - name: 美国高速节点1
-  password: 89aa7588-7b4f-4c8e-9fc4-c8f5accc13b7
+  password: 37f1688f-a8d7-4b6d-a92a-657716c20342
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 日本 东京-1A
+  network: ws
+  port: 8080
+  server: 156.231.116.156
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f08275ba-2ca7-41de-b05b-38483ab2eab5
+  ws-opts:
+    headers:
+      Host: images-na.ssl-images-amazon.com
+    path: /image
+- alterId: 0
+  cipher: auto
+  name: 日本 东京-1B
+  network: ws
+  port: 8443
+  server: 43.239.249.125
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f08275ba-2ca7-41de-b05b-38483ab2eab5
+  ws-opts:
+    headers:
+      Host: images-na.ssl-images-amazon.com
+    path: /image
