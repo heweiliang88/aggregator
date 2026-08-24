@@ -1,21 +1,21 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: CANADA
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 13345
   server: 140.238.153.81
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: CHILE
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 23345
   server: 129.151.99.94
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: FRANCE
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 22345
   server: 141.253.107.174
   type: ss
@@ -30,62 +30,69 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 17b76c06-f018-4a34-b472-18380ca6ad1e
+  uuid: 3b0ee844-a983-4395-93f7-19eee3cd7e0a
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: chacha20-ietf-poly1305
   name: HONG KONG
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 12345
   server: 202.155.141.87
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: KOREA
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 32345
   server: 134.185.109.166
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: SINGAPORE
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 43345
   server: 140.245.121.101
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: SWITZERLAND
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 33345
   server: 140.238.175.124
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: THE UNITED KINGDOM
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 42345
   server: 140.238.64.207
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: UNITED STATES
-  password: 880b14e8-777d-4f58-a0f8-e4f6f0b20d86
+  password: cc74de9a-3801-49cc-aa9d-7dd98a5b91df
   port: 52345
   server: 152.67.250.45
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: Y3-IMV
+  name: YO-XEU
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 东京节点1
+  password: a67d1e4e-a7ec-4aa6-bcaa-d5983c8f4f25
+  port: 443
+  server: 54.95.114.31
+  type: ss
+  udp: true
 - name: 中国联通节点1
-  password: 4de45ddd-59d7-48b0-862f-7af694a6089a
+  password: c9df99ab-781a-41be-b34c-2b702a002099
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -93,7 +100,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 4de45ddd-59d7-48b0-862f-7af694a6089a
+  password: c9df99ab-781a-41be-b34c-2b702a002099
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -101,7 +108,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 4de45ddd-59d7-48b0-862f-7af694a6089a
+  password: c9df99ab-781a-41be-b34c-2b702a002099
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -109,7 +116,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 4de45ddd-59d7-48b0-862f-7af694a6089a
+  password: c9df99ab-781a-41be-b34c-2b702a002099
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -126,7 +133,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 11a16dc9-bd5f-4ee4-9fd0-95c5cbc309b9
+  uuid: d743c696-a494-486e-9e61-19ae95527f5d
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -141,7 +148,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 11a16dc9-bd5f-4ee4-9fd0-95c5cbc309b9
+  uuid: d743c696-a494-486e-9e61-19ae95527f5d
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -156,7 +163,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 11a16dc9-bd5f-4ee4-9fd0-95c5cbc309b9
+  uuid: d743c696-a494-486e-9e61-19ae95527f5d
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -171,16 +178,30 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 11a16dc9-bd5f-4ee4-9fd0-95c5cbc309b9
+  uuid: d743c696-a494-486e-9e61-19ae95527f5d
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 日本节点1
+  password: a67d1e4e-a7ec-4aa6-bcaa-d5983c8f4f25
+  port: 20000
+  server: 193.111.30.213
+  type: ss
+  udp: true
 - name: 美国高速节点1
-  password: 4de45ddd-59d7-48b0-862f-7af694a6089a
+  password: c9df99ab-781a-41be-b34c-2b702a002099
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港节点1
+  password: a67d1e4e-a7ec-4aa6-bcaa-d5983c8f4f25
+  port: 20000
+  server: 156.226.169.18
+  type: ss
   udp: true
