@@ -9,44 +9,20 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b204c4a7-0b57-46f9-892d-76404b1c2e24
+  uuid: 5f230d7d-e1a6-4ae7-b0f4-fa4260fa9a0b
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- name: HK-200M
-  password: c366f88c-dd9e-4701-90d6-c52e017f141a
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: true
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: JP-200M
-  password: c366f88c-dd9e-4701-90d6-c52e017f141a
-  port: 50000
-  server: jp200m.jiasu.asia
-  skip-cert-verify: true
-  sni: jp200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: US-200M
-  password: c366f88c-dd9e-4701-90d6-c52e017f141a
-  port: 50000
-  server: us200m.jiasu.asia
-  skip-cert-verify: true
-  sni: us200m.jiasu.asia
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
-  name: Y2-IWF
+  name: YB-EFJ
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 8e4644ce-0492-40d3-9d05-1229b7046b15
+  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -54,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 8e4644ce-0492-40d3-9d05-1229b7046b15
+  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -62,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 8e4644ce-0492-40d3-9d05-1229b7046b15
+  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -70,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 8e4644ce-0492-40d3-9d05-1229b7046b15
+  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -87,7 +63,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 330df312-b67b-4d37-b31c-3f5b2fe862d4
+  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -102,7 +78,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 330df312-b67b-4d37-b31c-3f5b2fe862d4
+  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -117,7 +93,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 330df312-b67b-4d37-b31c-3f5b2fe862d4
+  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -132,246 +108,16 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 330df312-b67b-4d37-b31c-3f5b2fe862d4
+  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 日本01
-  port: 2087
-  server: node1.transglovortex.top
-  servername: node1.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 日本02
-  port: 8443
-  server: node1.transglovortex.top
-  servername: node1.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 日本03
-  port: 2053
-  server: node1.transglovortex.top
-  servername: node1.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 日本04
-  port: 2083
-  server: node1.transglovortex.top
-  servername: node1.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 法国01
-  port: 2087
-  server: node5.transglovortex.top
-  servername: node5.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 法国02
-  port: 8443
-  server: node5.transglovortex.top
-  servername: node5.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 法国03
-  port: 2053
-  server: node5.transglovortex.top
-  servername: node5.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 法国04
-  port: 2083
-  server: node5.transglovortex.top
-  servername: node5.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 美国01
-  port: 2087
-  server: node3.transglovortex.top
-  servername: node3.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 美国02
-  port: 8443
-  server: node3.transglovortex.top
-  servername: node3.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 美国03
-  port: 2053
-  server: node3.transglovortex.top
-  servername: node3.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 美国04
-  port: 2083
-  server: node3.transglovortex.top
-  servername: node3.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
 - name: 美国高速节点1
-  password: 8e4644ce-0492-40d3-9d05-1229b7046b15
+  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 英国01
-  port: 2087
-  server: node2.transglovortex.top
-  servername: node2.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 英国02
-  port: 8443
-  server: node2.transglovortex.top
-  servername: node2.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 英国03
-  port: 2053
-  server: node2.transglovortex.top
-  servername: node2.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 英国04
-  port: 2083
-  server: node2.transglovortex.top
-  servername: node2.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 荷兰01
-  port: 2087
-  server: node4.transglovortex.top
-  servername: node4.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 荷兰02
-  port: 8443
-  server: node4.transglovortex.top
-  servername: node4.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 荷兰03
-  port: 2053
-  server: node4.transglovortex.top
-  servername: node4.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 荷兰04
-  port: 2083
-  server: node4.transglovortex.top
-  servername: node4.transglovortex.top
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: febbc5d1-e805-4310-8ea9-d2a6aadb07cc
-- alterId: 0
-  cipher: auto
-  name: 马来西亚 01
-  port: 2083
-  server: 45.127.5.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 41b67bf5-3974-413b-ae18-78c49edb9097
