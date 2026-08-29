@@ -9,28 +9,36 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 5f230d7d-e1a6-4ae7-b0f4-fa4260fa9a0b
+  uuid: 87900327-82a0-4e1e-b0df-8962be423580
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - cipher: aes-128-gcm
-  name: YB-EFJ
+  name: Y7-DBV
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
+  password: 5abbec7b-24be-4ab9-9de4-26244b690655
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- name: 中部-美国NETFLIX TIKTOK DISNEY
+  password: 2a9d7cb9-8968-426f-b999-8be3ca6859a2
+  port: 45669
+  server: us.ma-etcs.fun
+  skip-cert-verify: true
+  sni: us.ma-etcs.fun
+  type: trojan
+  udp: true
 - name: 台湾高速节点
-  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
+  password: 5abbec7b-24be-4ab9-9de4-26244b690655
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
+  password: 5abbec7b-24be-4ab9-9de4-26244b690655
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,7 +54,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
+  password: 5abbec7b-24be-4ab9-9de4-26244b690655
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -63,7 +71,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
+  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -78,7 +86,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
+  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -93,7 +101,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
+  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -108,16 +116,40 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 037659de-f74c-47cf-9f2e-ad4176e90bdb
+  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 美国高速节点1
-  password: 495cc497-f94d-4cd1-8e95-9e1e09ae49e9
+  password: 5abbec7b-24be-4ab9-9de4-26244b690655
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 马来西亚 01
+  port: 2083
+  server: 45.127.5.132
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4db90654-91e0-4dc3-acc1-f0242363a0ae
+- cipher: aes-128-gcm
+  name: HONG KONG 01-1A
+  password: 351e865a-35ac-4b82-af1c-625375e90e88
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: HONG KONG 01-1B
+  password: 7f5c9780-3393-4a7f-bebf-f4bf717fd1aa
+  port: 20001
+  server: 72.244.91.170
+  type: ss
   udp: true
