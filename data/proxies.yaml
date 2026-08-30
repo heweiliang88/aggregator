@@ -9,20 +9,51 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 87900327-82a0-4e1e-b0df-8962be423580
+  uuid: c1afc583-fc56-42d1-aae0-d8465bbb1fc5
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- name: HK-200M
+  password: 54c349df-a06a-4378-b19a-af1f8996683c
+  port: 50000
+  server: hk200m.jiasu.asia
+  skip-cert-verify: true
+  sni: hk200m.jiasu.asia
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: Y7-DBV
+  name: HONG KONG 01
+  password: 11a9b118-09cb-4bd5-b750-9a6d6c9bf3e5
+  port: 20001
+  server: 72.244.91.170
+  type: ss
+  udp: true
+- name: JP-200M
+  password: 54c349df-a06a-4378-b19a-af1f8996683c
+  port: 50000
+  server: jp200m.jiasu.asia
+  skip-cert-verify: true
+  sni: jp200m.jiasu.asia
+  type: trojan
+  udp: true
+- name: US-200M
+  password: 54c349df-a06a-4378-b19a-af1f8996683c
+  port: 50000
+  server: us200m.jiasu.asia
+  skip-cert-verify: true
+  sni: us200m.jiasu.asia
+  type: trojan
+  udp: true
+- cipher: aes-128-gcm
+  name: Y7-PGC
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 5abbec7b-24be-4ab9-9de4-26244b690655
+  password: 516a750f-2f0a-48b5-b3bc-bbe7f02ffff8
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +61,7 @@ proxies:
   type: trojan
   udp: true
 - name: 中部-美国NETFLIX TIKTOK DISNEY
-  password: 2a9d7cb9-8968-426f-b999-8be3ca6859a2
+  password: 7fa8a183-a5b8-48c2-a197-3bc1a8a2bebb
   port: 45669
   server: us.ma-etcs.fun
   skip-cert-verify: true
@@ -38,7 +69,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 5abbec7b-24be-4ab9-9de4-26244b690655
+  password: 516a750f-2f0a-48b5-b3bc-bbe7f02ffff8
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -46,7 +77,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 5abbec7b-24be-4ab9-9de4-26244b690655
+  password: 516a750f-2f0a-48b5-b3bc-bbe7f02ffff8
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -54,102 +85,18 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 5abbec7b-24be-4ab9-9de4-26244b690655
+  password: 516a750f-2f0a-48b5-b3bc-bbe7f02ffff8
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 59cb5bd7-ca76-4a29-bba0-0a3e6aaa655f
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
-    path: /
 - name: 美国高速节点1
-  password: 5abbec7b-24be-4ab9-9de4-26244b690655
+  password: 516a750f-2f0a-48b5-b3bc-bbe7f02ffff8
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 马来西亚 01
-  port: 2083
-  server: 45.127.5.132
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4db90654-91e0-4dc3-acc1-f0242363a0ae
-- cipher: aes-128-gcm
-  name: HONG KONG 01-1A
-  password: 351e865a-35ac-4b82-af1c-625375e90e88
-  port: 20001
-  server: 72.244.91.170
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HONG KONG 01-1B
-  password: 7f5c9780-3393-4a7f-bebf-f4bf717fd1aa
-  port: 20001
-  server: 72.244.91.170
-  type: ss
   udp: true
