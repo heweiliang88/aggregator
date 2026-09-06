@@ -9,59 +9,95 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 2bedf56b-7af1-4115-accf-a36535c5b984
+  uuid: 920fb749-bbe0-4916-ba23-aad6031dce0f
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- name: HK-200M
-  password: 236c7968-d7af-4ce1-a90a-a556f64ac5d7
-  port: 50000
-  server: hk200m.jiasu.asia
-  skip-cert-verify: true
-  sni: hk200m.jiasu.asia
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   name: HONG KONG 01
-  password: 46db0aac-ff2d-45ab-8ba0-a291e173416b
+  password: 922f5879-cb11-41ba-9f0d-d2aa6d80d5d7
   port: 20001
   server: 72.244.91.170
   type: ss
   udp: true
-- name: JP-200M
-  password: 236c7968-d7af-4ce1-a90a-a556f64ac5d7
-  port: 50000
-  server: jp200m.jiasu.asia
-  skip-cert-verify: true
-  sni: jp200m.jiasu.asia
-  type: trojan
-  udp: true
-- name: US-200M
-  password: 236c7968-d7af-4ce1-a90a-a556f64ac5d7
-  port: 50000
-  server: us200m.jiasu.asia
-  skip-cert-verify: true
-  sni: us200m.jiasu.asia
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
-  name: Y6-DMG
+  name: Y4-ANC
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
 - name: 中国联通节点1
-  password: 8848b3f0-09c0-41a6-94cf-3cfff1610506
+  password: d4f56fae-56d7-472f-add3-3fd94052592a
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 印度1
+  network: ws
+  port: 443
+  server: ip6-in1.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-in2.vp1000.net
+    path: /pulicfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 印度2
+  network: ws
+  port: 443
+  server: ip4-in2.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-in2.vp1000.net
+    path: /pulicfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 印度3
+  network: ws
+  port: 443
+  server: ip6-in3.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-in4.vp1000.net
+    path: /pulicfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 印度4
+  network: ws
+  port: 443
+  server: ip4-in4.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-in4.vp1000.net
+    path: /pulicfastpDisney
 - name: 台湾高速节点
-  password: 8848b3f0-09c0-41a6-94cf-3cfff1610506
+  password: d4f56fae-56d7-472f-add3-3fd94052592a
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -69,7 +105,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 8848b3f0-09c0-41a6-94cf-3cfff1610506
+  password: d4f56fae-56d7-472f-add3-3fd94052592a
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -77,13 +113,43 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 8848b3f0-09c0-41a6-94cf-3cfff1610506
+  password: d4f56fae-56d7-472f-add3-3fd94052592a
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
   sni: node3.yuntongclouds.com
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 巴西1
+  network: ws
+  port: 443
+  server: br.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: br.vp1000.net
+    path: /pulicpDisney
+- alterId: 0
+  cipher: auto
+  name: 巴西4
+  network: ws
+  port: 443
+  server: ip6-br5.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: br.vp1000.net
+    path: /pulicpDisney
 - alterId: 0
   cipher: auto
   name: 德国-法兰克福-001
@@ -94,7 +160,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7fee6580-2fb2-4a76-90b7-53d57ce3776f
+  uuid: ce7517ca-d3ab-4c3a-bc55-86452661b721
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -109,7 +175,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7fee6580-2fb2-4a76-90b7-53d57ce3776f
+  uuid: ce7517ca-d3ab-4c3a-bc55-86452661b721
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -124,7 +190,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7fee6580-2fb2-4a76-90b7-53d57ce3776f
+  uuid: ce7517ca-d3ab-4c3a-bc55-86452661b721
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -139,13 +205,88 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 7fee6580-2fb2-4a76-90b7-53d57ce3776f
+  uuid: ce7517ca-d3ab-4c3a-bc55-86452661b721
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 日本1
+  network: ws
+  port: 443
+  server: ip4-jp1.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 日本2
+  network: ws
+  port: 443
+  server: ip4-jp2.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-jp2.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 日本3
+  network: ws
+  port: 443
+  server: ip6-jp1.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 日本4
+  network: ws
+  port: 443
+  server: ip6-jp2.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: ip4-jp2.vp1000.net
+    path: /pulicpaylfastpDisney
+- alterId: 0
+  cipher: auto
+  name: 美国3
+  network: ws
+  port: 443
+  server: us3.vp1000.net
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: f51bbee6-6a70-4c02-a409-a51635ccdf68
+  ws-opts:
+    headers:
+      Host: us3.vp1000.net
+    path: /cp100vp800kkkdsnx
 - name: 美国高速节点1
-  password: 8848b3f0-09c0-41a6-94cf-3cfff1610506
+  password: d4f56fae-56d7-472f-add3-3fd94052592a
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
