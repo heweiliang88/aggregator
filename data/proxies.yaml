@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-128-gcm
-  name: AX-POF
+  name: AT-TYH
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
@@ -16,13 +16,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 49308441-b707-4009-aacf-6cc3a08642e1
+  uuid: e637a542-b72a-4322-955f-5fac650a2956
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: HK ZXY TROJAN
-  password: 07f8041b-950d-469f-8bb7-5dee8939d9aa
+  password: 14532687-4b93-4f3b-a787-d30908e50a6d
   port: 8443
   server: 103.85.226.78
   skip-cert-verify: true
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: P-日本03-极速-TROJAN
-  password: 8bcfc0ef-11b1-4d82-8c73-e7527262d6f1
+  password: b8fb520b-0985-4161-bf40-ea811f556472
   port: 32676
   server: 45.76.218.34
   skip-cert-verify: true
@@ -38,14 +38,14 @@ proxies:
   type: trojan
   udp: true
 - name: US LSJ ZXY TROJAN
-  password: 07f8041b-950d-469f-8bb7-5dee8939d9aa
+  password: 14532687-4b93-4f3b-a787-d30908e50a6d
   port: 10443
   server: 45.205.27.78
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: abdf9720-3fb5-4d8d-8042-0dcc12c894d4
+  password: ca0a7291-77c1-46c1-9b64-99334e4a96c0
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -53,7 +53,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: abdf9720-3fb5-4d8d-8042-0dcc12c894d4
+  password: ca0a7291-77c1-46c1-9b64-99334e4a96c0
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -61,7 +61,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: abdf9720-3fb5-4d8d-8042-0dcc12c894d4
+  password: ca0a7291-77c1-46c1-9b64-99334e4a96c0
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -69,7 +69,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: abdf9720-3fb5-4d8d-8042-0dcc12c894d4
+  password: ca0a7291-77c1-46c1-9b64-99334e4a96c0
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -86,7 +86,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e088388e-b651-4ca0-a105-edc691355e15
+  uuid: babdbe4d-07cb-464a-915b-cd542c590753
   ws-opts:
     path: /
 - alterId: 0
@@ -99,7 +99,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4a2c5d73-704d-427f-ae95-8e0b1d1bef78
+  uuid: 844b8f57-a344-4c10-924c-46e79dcdf8aa
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -114,7 +114,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4a2c5d73-704d-427f-ae95-8e0b1d1bef78
+  uuid: 844b8f57-a344-4c10-924c-46e79dcdf8aa
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -129,7 +129,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4a2c5d73-704d-427f-ae95-8e0b1d1bef78
+  uuid: 844b8f57-a344-4c10-924c-46e79dcdf8aa
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -144,13 +144,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4a2c5d73-704d-427f-ae95-8e0b1d1bef78
+  uuid: 844b8f57-a344-4c10-924c-46e79dcdf8aa
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 日本-A区
-  password: 876e3e10-67df-44aa-8328-864ebd437540
+  password: 3db72a65-a24d-4cb0-a157-22661683e1fe
   port: 443
   server: node3.luoye.ee
   skip-cert-verify: true
@@ -167,7 +167,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e088388e-b651-4ca0-a105-edc691355e15
+  uuid: babdbe4d-07cb-464a-915b-cd542c590753
   ws-opts:
     path: /
 - alterId: 0
@@ -180,13 +180,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e088388e-b651-4ca0-a105-edc691355e15
+  uuid: babdbe4d-07cb-464a-915b-cd542c590753
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
 - name: 美国-B区
-  password: 876e3e10-67df-44aa-8328-864ebd437540
+  password: 3db72a65-a24d-4cb0-a157-22661683e1fe
   port: 443
   server: node5.luoye.ee
   skip-cert-verify: true
@@ -203,11 +203,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e088388e-b651-4ca0-a105-edc691355e15
+  uuid: babdbe4d-07cb-464a-915b-cd542c590753
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: abdf9720-3fb5-4d8d-8042-0dcc12c894d4
+  password: ca0a7291-77c1-46c1-9b64-99334e4a96c0
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -215,7 +215,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-A区
-  password: 876e3e10-67df-44aa-8328-864ebd437540
+  password: 3db72a65-a24d-4cb0-a157-22661683e1fe
   port: 443
   server: node1.luoye.ee
   skip-cert-verify: true
@@ -223,7 +223,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-B区
-  password: 876e3e10-67df-44aa-8328-864ebd437540
+  password: 3db72a65-a24d-4cb0-a157-22661683e1fe
   port: 443
   server: node2.luoye.ee
   skip-cert-verify: true
