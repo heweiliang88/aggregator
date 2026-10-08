@@ -1,9 +1,16 @@
 proxies:
 - cipher: aes-128-gcm
-  name: A2-PHQ
+  name: A8-INC
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: AT-GUP
+  password: subscription-notice-unavailable
+  port: 1
+  server: subscription-notice.invalid
   type: ss
   udp: true
 - alterId: 0
@@ -16,13 +23,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: ccbe231b-6b4d-4a4e-a608-18f272f993af
+  uuid: 0aa6de19-f341-4798-9ba9-cea3fe298a0c
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: HK ZXY TROJAN
-  password: 48d81872-551b-4f17-99bf-c4944fff4865
+  password: 4e8b906a-adc0-4697-ae62-82dd489bc981
   port: 8443
   server: 103.85.226.78
   skip-cert-verify: true
@@ -30,7 +37,7 @@ proxies:
   type: trojan
   udp: true
 - name: P-日本03-极速-TROJAN
-  password: fe1cfebb-92f6-48b3-925d-72f98a5ebab3
+  password: aa5376a0-91f6-4057-bdb8-852247b8880f
   port: 32676
   server: 45.76.218.34
   skip-cert-verify: true
@@ -38,14 +45,14 @@ proxies:
   type: trojan
   udp: true
 - name: US LSJ ZXY TROJAN
-  password: 48d81872-551b-4f17-99bf-c4944fff4865
+  password: 4e8b906a-adc0-4697-ae62-82dd489bc981
   port: 10443
   server: 45.205.27.78
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: 058f3ba9-0615-43b0-8d28-ff4fe4805283
+  password: b0cfb1ea-80d5-44e0-b726-18012614cc1e
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -53,7 +60,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 058f3ba9-0615-43b0-8d28-ff4fe4805283
+  password: b0cfb1ea-80d5-44e0-b726-18012614cc1e
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -61,7 +68,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 058f3ba9-0615-43b0-8d28-ff4fe4805283
+  password: b0cfb1ea-80d5-44e0-b726-18012614cc1e
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -69,7 +76,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 058f3ba9-0615-43b0-8d28-ff4fe4805283
+  password: b0cfb1ea-80d5-44e0-b726-18012614cc1e
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -86,71 +93,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e5876e36-3f78-4613-b1ce-144a52c58d0f
+  uuid: 596c3877-e91b-4eec-be49-a037dd4567e4
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 38aa6ec0-e060-4883-9588-205ce4c7bbed
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 38aa6ec0-e060-4883-9588-205ce4c7bbed
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 38aa6ec0-e060-4883-9588-205ce4c7bbed
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 38aa6ec0-e060-4883-9588-205ce4c7bbed
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
     path: /
 - name: 日本-A区
-  password: 6ea39cfc-ec79-4e7c-9679-907bd612635a
+  password: a0cb6e57-bace-4bf0-a868-62653d5a9269
   port: 443
   server: node3.luoye.ee
   skip-cert-verify: true
@@ -167,7 +114,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e5876e36-3f78-4613-b1ce-144a52c58d0f
+  uuid: 596c3877-e91b-4eec-be49-a037dd4567e4
   ws-opts:
     path: /
 - alterId: 0
@@ -180,13 +127,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e5876e36-3f78-4613-b1ce-144a52c58d0f
+  uuid: 596c3877-e91b-4eec-be49-a037dd4567e4
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
 - name: 美国-B区
-  password: 6ea39cfc-ec79-4e7c-9679-907bd612635a
+  password: a0cb6e57-bace-4bf0-a868-62653d5a9269
   port: 443
   server: node5.luoye.ee
   skip-cert-verify: true
@@ -203,11 +150,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e5876e36-3f78-4613-b1ce-144a52c58d0f
+  uuid: 596c3877-e91b-4eec-be49-a037dd4567e4
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: 058f3ba9-0615-43b0-8d28-ff4fe4805283
+  password: b0cfb1ea-80d5-44e0-b726-18012614cc1e
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -215,7 +162,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-A区
-  password: 6ea39cfc-ec79-4e7c-9679-907bd612635a
+  password: a0cb6e57-bace-4bf0-a868-62653d5a9269
   port: 443
   server: node1.luoye.ee
   skip-cert-verify: true
@@ -223,10 +170,130 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-B区
-  password: 6ea39cfc-ec79-4e7c-9679-907bd612635a
+  password: a0cb6e57-bace-4bf0-a868-62653d5a9269
   port: 443
   server: node2.luoye.ee
   skip-cert-verify: true
   sni: node2.luoye.ee
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1A
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc8b681f-53f9-42a7-af66-8b6f91f0d417
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1B
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0e6516b6-6ac6-41d4-84d7-f3d896e95b77
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1A
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc8b681f-53f9-42a7-af66-8b6f91f0d417
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1B
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0e6516b6-6ac6-41d4-84d7-f3d896e95b77
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1A
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc8b681f-53f9-42a7-af66-8b6f91f0d417
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1B
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0e6516b6-6ac6-41d4-84d7-f3d896e95b77
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1A
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: dc8b681f-53f9-42a7-af66-8b6f91f0d417
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1B
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 0e6516b6-6ac6-41d4-84d7-f3d896e95b77
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
