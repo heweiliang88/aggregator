@@ -1,11 +1,4 @@
 proxies:
-- cipher: aes-128-gcm
-  name: AR-DYA
-  password: '00000000000000000000000000000000'
-  port: 443
-  server: 1.1.1.1
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: AUS-SYDNEY1
@@ -16,7 +9,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
+  uuid: c1b2a1d8-9b2c-4a09-9261-ff6fc214985b
   ws-opts:
     headers:
       Host: aus.lovehk.xyz
@@ -31,7 +24,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
+  uuid: c1b2a1d8-9b2c-4a09-9261-ff6fc214985b
   ws-opts:
     headers:
       Host: aus.lovehk.xyz
@@ -46,13 +39,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 285cdbc7-2b5c-4a56-b11f-871646b6341c
+  uuid: 7848fcda-54f9-4c04-ad20-0f9d038efe45
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: HK ZXY TROJAN
-  password: 615491e6-a560-4c54-94bc-f4d8ea725267
+  password: 6fa9bcb5-8142-4dd2-a377-6d23e35f296b
   port: 8443
   server: 103.85.226.78
   skip-cert-verify: true
@@ -69,7 +62,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
+  uuid: c1b2a1d8-9b2c-4a09-9261-ff6fc214985b
   ws-opts:
     headers:
       Host: my.lovehk.xyz
@@ -84,7 +77,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
+  uuid: c1b2a1d8-9b2c-4a09-9261-ff6fc214985b
   ws-opts:
     headers:
       Host: my.lovehk.xyz
@@ -99,58 +92,28 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
-  ws-opts:
-    headers:
-      Host: ukl.lovehk.xyz
-    path: /London31
-- alterId: 0
-  cipher: auto
-  name: UK-LONDON2
-  network: ws
-  port: 443
-  server: 172.67.142.142
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4fdc2028-4c39-4709-80d6-fa130baa9bad
+  uuid: c1b2a1d8-9b2c-4a09-9261-ff6fc214985b
   ws-opts:
     headers:
       Host: ukl.lovehk.xyz
     path: /London31
 - name: US LSJ ZXY TROJAN
-  password: 615491e6-a560-4c54-94bc-f4d8ea725267
+  password: 6fa9bcb5-8142-4dd2-a377-6d23e35f296b
   port: 10443
   server: 45.205.27.78
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: 中国联通节点1
-  password: 2fcf130b-5e89-474d-85bd-5d3f8146f733
+  password: 625d2e44-f9fe-4bbb-b1f3-c769ca030516
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 丹麦哥本哈根 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10109
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 丹麦哥本哈根 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18409
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
 - name: 台湾高速节点
-  password: 2fcf130b-5e89-474d-85bd-5d3f8146f733
+  password: 625d2e44-f9fe-4bbb-b1f3-c769ca030516
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -158,7 +121,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 2fcf130b-5e89-474d-85bd-5d3f8146f733
+  password: 625d2e44-f9fe-4bbb-b1f3-c769ca030516
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -166,7 +129,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 2fcf130b-5e89-474d-85bd-5d3f8146f733
+  password: 625d2e44-f9fe-4bbb-b1f3-c769ca030516
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -183,7 +146,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 26e670e8-7c2e-45aa-bdc9-8a50945ea21b
+  uuid: e5e75c44-da5c-44c1-be86-54a2e5517f07
   ws-opts:
     path: /
 - alterId: 0
@@ -196,7 +159,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b8c41b86-1e3b-4718-ab13-8f346c5aa303
+  uuid: 3d121933-b04e-4d61-9023-7f2355268f79
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -211,7 +174,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b8c41b86-1e3b-4718-ab13-8f346c5aa303
+  uuid: 3d121933-b04e-4d61-9023-7f2355268f79
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -226,7 +189,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b8c41b86-1e3b-4718-ab13-8f346c5aa303
+  uuid: 3d121933-b04e-4d61-9023-7f2355268f79
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -241,92 +204,17 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: b8c41b86-1e3b-4718-ab13-8f346c5aa303
+  uuid: 3d121933-b04e-4d61-9023-7f2355268f79
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
-- cipher: aes-256-gcm
-  name: 新加坡专线 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10102
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 新加坡专线 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18402
-  server: 200.181.82.92
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 新加坡专线 02 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10103
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 新加坡专线 02 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18403
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
 - name: 日本-A区
-  password: b9701fdd-4c20-4687-a3cb-b3b545d500d0
+  password: bd4ffa07-c12c-4e9f-afbf-7bf155f4097b
   port: 443
   server: node3.luoye.ee
   skip-cert-verify: true
   sni: node3.luoye.ee
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本东京 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10104
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 日本东京 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18404
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 日本东京 02 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10105
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 日本东京 02 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18405
-  server: 200.181.82.92
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 波兰华沙 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10110
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 波兰华沙 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 8443
-  server: 167.17.188.124
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
   type: trojan
   udp: true
 - alterId: 0
@@ -339,7 +227,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 26e670e8-7c2e-45aa-bdc9-8a50945ea21b
+  uuid: e5e75c44-da5c-44c1-be86-54a2e5517f07
   ws-opts:
     path: /
 - alterId: 0
@@ -352,13 +240,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 26e670e8-7c2e-45aa-bdc9-8a50945ea21b
+  uuid: e5e75c44-da5c-44c1-be86-54a2e5517f07
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
 - name: 美国-B区
-  password: b9701fdd-4c20-4687-a3cb-b3b545d500d0
+  password: bd4ffa07-c12c-4e9f-afbf-7bf155f4097b
   port: 443
   server: node5.luoye.ee
   skip-cert-verify: true
@@ -375,64 +263,19 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 26e670e8-7c2e-45aa-bdc9-8a50945ea21b
+  uuid: e5e75c44-da5c-44c1-be86-54a2e5517f07
   ws-opts:
     path: /
-- cipher: aes-256-gcm
-  name: 美国圣何塞 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10107
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 美国圣何塞 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18407
-  server: 200.181.82.92
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 美国西雅图 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10106
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 美国西雅图 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18406
-  server: 200.181.82.92
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
 - name: 美国高速节点1
-  password: 2fcf130b-5e89-474d-85bd-5d3f8146f733
+  password: 625d2e44-f9fe-4bbb-b1f3-c769ca030516
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: 芬兰赫尔辛基 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10112
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 芬兰赫尔辛基 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18412
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
 - name: 香港-A区
-  password: b9701fdd-4c20-4687-a3cb-b3b545d500d0
+  password: bd4ffa07-c12c-4e9f-afbf-7bf155f4097b
   port: 443
   server: node1.luoye.ee
   skip-cert-verify: true
@@ -440,55 +283,10 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-B区
-  password: b9701fdd-4c20-4687-a3cb-b3b545d500d0
+  password: bd4ffa07-c12c-4e9f-afbf-7bf155f4097b
   port: 443
   server: node2.luoye.ee
   skip-cert-verify: true
   sni: node2.luoye.ee
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港专线 01 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 2053
-  server: 200.181.82.91
-  type: ss
-  udp: true
-- name: 香港专线 01 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 8443
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港专线 02 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 2053
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 香港专线 02 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 8443
-  server: 200.181.82.92
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 香港专线 03 SHADOWSOCKS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 10101
-  server: 200.181.82.92
-  type: ss
-  udp: true
-- name: 香港专线 03 TROJAN TLS
-  password: 8da74511-3cfa-47bc-8109-d277a6a686fc
-  port: 18401
-  server: 200.181.82.91
-  skip-cert-verify: true
-  sni: dyd.sevip.vip
   type: trojan
   udp: true
