@@ -1,41 +1,11 @@
 proxies:
 - cipher: aes-128-gcm
-  name: AF-FAG
+  name: A9-BUW
   password: '00000000000000000000000000000000'
   port: 443
   server: 1.1.1.1
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: AUS-SYDNEY1
-  network: ws
-  port: 8443
-  server: 66.235.200.145
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: aus.frnhk.xyz
-    path: /Sydney3
-- alterId: 0
-  cipher: auto
-  name: AUS-SYDNEY2
-  network: ws
-  port: 8443
-  server: 199.34.228.160
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: aus.frnhk.xyz
-    path: /Sydney3
 - alterId: 0
   cipher: auto
   name: G I C A B N H T H N
@@ -46,73 +16,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 56ec9aa3-dccc-4e85-bd67-083713bc6623
+  uuid: 882a5d36-3898-4e76-bde1-916fe4fb2583
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- alterId: 0
-  cipher: auto
-  name: MY-KUALALUMPUR1
-  network: ws
-  port: 8443
-  server: 2.58.104.11
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: my.frnhk.xyz
-    path: /KualaLumpur1
-- alterId: 0
-  cipher: auto
-  name: MY-KUALALUMPUR2
-  network: ws
-  port: 8443
-  server: 104.21.3.52
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: my.frnhk.xyz
-    path: /KualaLumpur1
-- alterId: 0
-  cipher: auto
-  name: UK-LONDON1
-  network: ws
-  port: 8443
-  server: 206.238.238.222
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: uk.frnhk.xyz
-    path: /London31
-- alterId: 0
-  cipher: auto
-  name: UK-LONDON2
-  network: ws
-  port: 8443
-  server: 206.238.239.109
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 3afcb673-6eb1-4f04-8fa9-db4b6db58094
-  ws-opts:
-    headers:
-      Host: uk.frnhk.xyz
-    path: /London31
 - name: 中国联通节点1
-  password: 995ef2e8-25cf-43b9-9768-a6d96325b0db
+  password: 18ad900c-07c1-4e42-bf90-05db6ef9cbbd
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -120,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 995ef2e8-25cf-43b9-9768-a6d96325b0db
+  password: 18ad900c-07c1-4e42-bf90-05db6ef9cbbd
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -128,7 +38,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 995ef2e8-25cf-43b9-9768-a6d96325b0db
+  password: 18ad900c-07c1-4e42-bf90-05db6ef9cbbd
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -136,7 +46,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 995ef2e8-25cf-43b9-9768-a6d96325b0db
+  password: 18ad900c-07c1-4e42-bf90-05db6ef9cbbd
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -153,7 +63,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7f051750-f758-4a29-b50b-b081510578b4
+  uuid: 258ef862-c916-4f3e-85fb-7189ebb09f7d
   ws-opts:
     path: /
 - alterId: 0
@@ -166,7 +76,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1c23f3c6-d1d4-489f-83bf-b9c04bdedf7d
+  uuid: e475a108-70ce-449c-8d5c-b04a0fa098cb
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -181,7 +91,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1c23f3c6-d1d4-489f-83bf-b9c04bdedf7d
+  uuid: e475a108-70ce-449c-8d5c-b04a0fa098cb
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -196,7 +106,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1c23f3c6-d1d4-489f-83bf-b9c04bdedf7d
+  uuid: e475a108-70ce-449c-8d5c-b04a0fa098cb
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -211,13 +121,13 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: 1c23f3c6-d1d4-489f-83bf-b9c04bdedf7d
+  uuid: e475a108-70ce-449c-8d5c-b04a0fa098cb
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
     path: /
 - name: 日本-A区
-  password: c65c24b3-57a1-4f63-bed9-0f06951c1206
+  password: 4daf460c-7af4-4172-8043-5524247d0ca6
   port: 443
   server: node3.luoye.ee
   skip-cert-verify: true
@@ -234,7 +144,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7f051750-f758-4a29-b50b-b081510578b4
+  uuid: 258ef862-c916-4f3e-85fb-7189ebb09f7d
   ws-opts:
     path: /
 - alterId: 0
@@ -247,13 +157,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7f051750-f758-4a29-b50b-b081510578b4
+  uuid: 258ef862-c916-4f3e-85fb-7189ebb09f7d
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
 - name: 美国-B区
-  password: c65c24b3-57a1-4f63-bed9-0f06951c1206
+  password: 4daf460c-7af4-4172-8043-5524247d0ca6
   port: 443
   server: node5.luoye.ee
   skip-cert-verify: true
@@ -270,19 +180,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 7f051750-f758-4a29-b50b-b081510578b4
+  uuid: 258ef862-c916-4f3e-85fb-7189ebb09f7d
   ws-opts:
     path: /
-- name: 美国节点06
-  password: ad275870-8c07-48a0-be11-9bf8f5a8e340
-  port: 10006
-  server: us06.padno001.top
-  skip-cert-verify: true
-  sni: us06.padno001.top
-  type: trojan
-  udp: true
 - name: 美国高速节点1
-  password: 995ef2e8-25cf-43b9-9768-a6d96325b0db
+  password: 18ad900c-07c1-4e42-bf90-05db6ef9cbbd
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
@@ -290,7 +192,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-A区
-  password: c65c24b3-57a1-4f63-bed9-0f06951c1206
+  password: 4daf460c-7af4-4172-8043-5524247d0ca6
   port: 443
   server: node1.luoye.ee
   skip-cert-verify: true
@@ -298,7 +200,7 @@ proxies:
   type: trojan
   udp: true
 - name: 香港-B区
-  password: c65c24b3-57a1-4f63-bed9-0f06951c1206
+  password: 4daf460c-7af4-4172-8043-5524247d0ca6
   port: 443
   server: node2.luoye.ee
   skip-cert-verify: true
