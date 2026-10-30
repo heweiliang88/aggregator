@@ -1,9 +1,9 @@
 proxies:
-- cipher: aes-128-gcm
-  name: A8-AUT
-  password: '00000000000000000000000000000000'
-  port: 443
-  server: 1.1.1.1
+- cipher: chacha20-ietf-poly1305
+  name: 1Z-ZVY
+  password: 01e320f8-ea58-41f6-ae65-d44d2b4310a8
+  port: 8388
+  server: 177.3.93.166
   type: ss
   udp: true
 - alterId: 0
@@ -16,13 +16,41 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: e6679078-194f-4a89-8b3d-c1cbccba8d05
+  uuid: 3020679a-776c-43ce-973a-51ba2273af4b
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
+- cipher: chacha20-ietf-poly1305
+  name: MJ-QLH
+  password: f0843bd9-e6d3-48fa-93b6-1e0b2296031c
+  port: 8388
+  server: 177.3.93.166
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PB-KTX
+  password: feae4237-6b1a-4cd3-af37-c9051eb1f1d9
+  port: 8388
+  server: 177.3.93.166
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: PB-OEF
+  password: fd72edc6-154d-4c72-adf1-cdf7387ffc84
+  port: 8388
+  server: 177.3.93.166
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: W3-BPT
+  password: b7064cba-597f-4435-835b-b06bd56946e1
+  port: 8388
+  server: 177.3.93.166
+  type: ss
+  udp: true
 - name: 中国联通节点1
-  password: 414cda63-20dd-489f-b4de-2abfb340c856
+  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -30,7 +58,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 414cda63-20dd-489f-b4de-2abfb340c856
+  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -38,7 +66,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 414cda63-20dd-489f-b4de-2abfb340c856
+  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -46,7 +74,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 414cda63-20dd-489f-b4de-2abfb340c856
+  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -63,7 +91,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6aaa5042-7221-4eed-94dd-284fe1c51f1d
+  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
   ws-opts:
     path: /
 - alterId: 0
@@ -76,7 +104,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a7692ad6-fb96-4ec3-8a9d-18284f0da347
+  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -91,7 +119,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a7692ad6-fb96-4ec3-8a9d-18284f0da347
+  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -106,7 +134,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a7692ad6-fb96-4ec3-8a9d-18284f0da347
+  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -121,7 +149,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: a7692ad6-fb96-4ec3-8a9d-18284f0da347
+  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -136,7 +164,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6aaa5042-7221-4eed-94dd-284fe1c51f1d
+  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
   ws-opts:
     path: /
 - alterId: 0
@@ -149,7 +177,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6aaa5042-7221-4eed-94dd-284fe1c51f1d
+  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
   ws-opts:
     headers:
       Host: gw.alicdn.com
@@ -164,11 +192,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 6aaa5042-7221-4eed-94dd-284fe1c51f1d
+  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: 414cda63-20dd-489f-b4de-2abfb340c856
+  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
