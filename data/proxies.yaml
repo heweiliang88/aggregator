@@ -1,11 +1,4 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 1Z-ZVY
-  password: 01e320f8-ea58-41f6-ae65-d44d2b4310a8
-  port: 8388
-  server: 177.3.93.166
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: G I C A B N H T H N
@@ -16,49 +9,77 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 3020679a-776c-43ce-973a-51ba2273af4b
+  uuid: 171bdf1e-d765-4b69-bab5-86cca2fb9119
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- cipher: chacha20-ietf-poly1305
-  name: MJ-QLH
-  password: f0843bd9-e6d3-48fa-93b6-1e0b2296031c
-  port: 8388
-  server: 177.3.93.166
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: PB-KTX
-  password: feae4237-6b1a-4cd3-af37-c9051eb1f1d9
-  port: 8388
-  server: 177.3.93.166
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: PB-OEF
-  password: fd72edc6-154d-4c72-adf1-cdf7387ffc84
-  port: 8388
-  server: 177.3.93.166
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: W3-BPT
-  password: b7064cba-597f-4435-835b-b06bd56946e1
-  port: 8388
-  server: 177.3.93.166
-  type: ss
-  udp: true
 - name: 中国联通节点1
-  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
+  password: 8a199460-c858-4e71-b281-e9c9a622bd03
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
   sni: nodecn1.jiayinetwork.es
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 俄罗斯-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 50001
+  server: es01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 加拿大-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 20007
+  server: ca.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 印度-IEPL-PRO专线-01|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43304
+  server: in01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-BASIC-BGP-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 46611
+  server: tw1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-BASIC-BGP-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 46612
+  server: tw02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-PRO家宽-01|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 46613
+  server: tw03.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-PRO家宽-02|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 46614
+  server: tw04.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾-PRO家宽-03|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 46615
+  server: tw05.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - name: 台湾高速节点
-  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
+  password: 8a199460-c858-4e71-b281-e9c9a622bd03
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -66,7 +87,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
+  password: 8a199460-c858-4e71-b281-e9c9a622bd03
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -74,7 +95,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
+  password: 8a199460-c858-4e71-b281-e9c9a622bd03
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -91,69 +112,121 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
+  uuid: 59a29626-b08e-4794-a616-7fdfb6f6fe01
   ws-opts:
     path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 土耳其-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 36222
+  server: tr03.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 巴西-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43302
+  server: fl.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 德国-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41118
+  server: brd.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 意大利-IEPL-PRO专线01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 21386
+  server: it.network-cdn-gw-yd.net
+  type: ss
   udp: true
-  uuid: 5c8d4175-b06f-4eb6-8608-b6ed7a038b35
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
-    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-IEPL-BASIC专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 45106
+  server: sgp01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-IEPL-PRO专线-01 |线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 45107
+  server: sgp02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-IEPL-PRO专线-02 |线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 45108
+  server: sgp3.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-IEPL-PRO专线-03 |线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 45109
+  server: sgp4.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡-IEPL-PRO专线-04 |线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 45511
+  server: sgp05.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-BASIC-BGP-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48811
+  server: jp01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本-BASIC-BGP-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48812
+  server: jp02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-PRO家宽-01|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48803
+  server: jp3.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-PRO家宽-02|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48804
+  server: jp04.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本-PRO家宽-03|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48805
+  server: jp05.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 法国-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 21384
+  server: fr.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 泰国-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41116
+  server: tk.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 深圳
@@ -164,9 +237,16 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
+  uuid: 59a29626-b08e-4794-a616-7fdfb6f6fe01
   ws-opts:
     path: /
+- cipher: chacha20-ietf-poly1305
+  name: 澳大利亚-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 21383
+  server: au.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 美国
@@ -177,11 +257,125 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
+  uuid: 59a29626-b08e-4794-a616-7fdfb6f6fe01
   ws-opts:
     headers:
       Host: gw.alicdn.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 美国 01
+  network: ws
+  port: 443
+  server: us.kelian.asia
+  servername: us.kelian.asia
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2719a70d-e53b-4926-b69a-6634f18a33f5
+  ws-opts:
+    headers:
+      Host: us.kelian.asia
+    path: /us01
+- cipher: chacha20-ietf-poly1305
+  name: 美国-BASIC-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43101
+  server: us06.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-BASIC-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43201
+  server: us07.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-BASIC-03
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43207
+  server: us08.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-BASIC直连-01 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43203
+  server: us9.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-BASIC直连-02 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43205
+  server: us10.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-IEPL-PRO专线-01 |专用线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44111
+  server: us01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-IEPL-PRO专线-02 |专用线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44412
+  server: us02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-IEPL-PRO专线-03 |专用线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44413
+  server: us03.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-IEPL-PRO专线-04 |专用线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44414
+  server: us04.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-IEPL-PRO专线-05 |专用线路
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44415
+  server: us05.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-PRO直连-06 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44416
+  server: usp01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-PRO直连-07 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44417
+  server: usp02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-PRO直连-08 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44418
+  server: usp03.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国-PRO直连-09 |三网优化线路|X3
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 44419
+  server: usp04.network-cdn-gw-yd.net
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: 美国02
@@ -192,14 +386,344 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 54a2d146-760d-4372-9232-14a54ef854d3
+  uuid: 59a29626-b08e-4794-a616-7fdfb6f6fe01
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: 5949a92f-ef64-4dd5-b206-7f8eb791036c
+  password: 8a199460-c858-4e71-b281-e9c9a622bd03
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
   type: trojan
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国-IEPL-BASIC专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 10014
+  server: uks1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 英国-IEPL-PRO专线-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 10015
+  server: uks2.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 菲律宾-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 21385
+  server: ph.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南-IEPL-BASIC专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 20011
+  server: vn01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 越南-IEPL-PRO专线-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 20002
+  server: vn02.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 阿根廷-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 50004
+  server: at01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国-EIPL-PRO专线-|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41117
+  server: kr01.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 韩国-IEPL-BASIC专线-|X2
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 36220
+  server: kr03.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 32060
+  server: hk1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 32063
+  server: hk2.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-03
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 32061
+  server: hk13.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-04
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 32062
+  server: hk14.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-05
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 47705
+  server: hk15.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-06
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 47706
+  server: hk16.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-07
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 47707
+  server: hk17.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-08
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41618
+  server: hk18.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-09
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41619
+  server: hk09.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-BASIC-BGP-10
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 41610
+  server: hk11.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49911
+  server: hkp1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO专线-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49912
+  server: hkp2.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO专线-03
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49913
+  server: hkp3.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO专线-04
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49904
+  server: hkp4.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO专线-05
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49905
+  server: hkp5.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO家宽-06
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48017
+  server: hkp6.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO家宽-07
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 49083
+  server: hkp07.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO家宽-08
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48018
+  server: hkp8.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO家宽-09
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48019
+  server: hkp9.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港-PRO家宽-10
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 48020
+  server: hkp11.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 马来西亚-IEPL-PRO专线-01
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43305
+  server: mas.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 马来西亚-IEPL-PRO专线-02
+  password: 2f6743d1-e758-49a9-b11f-a6a2cb6d57b9
+  port: 43307
+  server: mas1.network-cdn-gw-yd.net
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1A
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 786c5e91-cbda-4234-a592-3e6642547ce3
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-001-1B
+  network: ws
+  port: 443
+  server: cxsfvn.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41f0f625-b6de-4dce-9055-dd48ac902085
+  ws-opts:
+    headers:
+      Host: cxsfvn.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1A
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 786c5e91-cbda-4234-a592-3e6642547ce3
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-002-1B
+  network: ws
+  port: 8443
+  server: zzrt.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41f0f625-b6de-4dce-9055-dd48ac902085
+  ws-opts:
+    headers:
+      Host: zzrt.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1A
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 786c5e91-cbda-4234-a592-3e6642547ce3
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-003-1B
+  network: ws
+  port: 8443
+  server: hwtqcp.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41f0f625-b6de-4dce-9055-dd48ac902085
+  ws-opts:
+    headers:
+      Host: hwtqcp.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1A
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 786c5e91-cbda-4234-a592-3e6642547ce3
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 德国-法兰克福-004-1B
+  network: ws
+  port: 443
+  server: qvxbtx.uhomdex.shop
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 41f0f625-b6de-4dce-9055-dd48ac902085
+  ws-opts:
+    headers:
+      Host: qvxbtx.uhomdex.shop
+    path: /
