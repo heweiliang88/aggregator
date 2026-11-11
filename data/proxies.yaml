@@ -9,167 +9,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: c27831d8-faeb-4f78-8472-1dc36da02700
+  uuid: 55b347e0-ed29-44a9-a05e-39fa35b9382a
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-伦敦3-解-LABB-锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 29110
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-台湾1-流媒体全解锁TIKTOK优秀-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 13599
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-德国1-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 5139
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-新加坡1-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 35058
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-新加坡2-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 57598
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-新加坡3-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 37923
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-日本2-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 42721
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-日本3-流媒体全解锁4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 58490
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-日本4-家-APTK-好-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 8641
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国1-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 25429
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国2-三网优化4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 50155
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国3-三网优化Y2B视频快-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 51467
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国4-家宽IP银行 视频全解锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 56512
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国5-家宽 流媒体银行全解锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 29988
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-美国8-双-ECUD-等-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 8135
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-荷兰1-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 23639
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-菲律宾1-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 55311
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-越南1家宽住宅IP全解锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 24308
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-韩国1家宽IP全解锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 25997
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-香港2-极-IINY-锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 27502
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-香港3-极-YIIE-锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 49642
-  server: df.668fx.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 专线A1-香港4-极-CYLI-锁-4X
-  password: 7866537d-8899-4243-b4fa-24bbe5d3de0f
-  port: 6740
-  server: df.668fx.com
-  type: ss
-  udp: true
 - name: 中国联通节点1
-  password: 99fcf0db-5e51-45d1-8242-72157930f9c7
+  password: 0e56cd6a-043e-47e3-a582-f37cfc190a24
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -177,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: 99fcf0db-5e51-45d1-8242-72157930f9c7
+  password: 0e56cd6a-043e-47e3-a582-f37cfc190a24
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -185,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: 99fcf0db-5e51-45d1-8242-72157930f9c7
+  password: 0e56cd6a-043e-47e3-a582-f37cfc190a24
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -193,7 +39,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: 99fcf0db-5e51-45d1-8242-72157930f9c7
+  password: 0e56cd6a-043e-47e3-a582-f37cfc190a24
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -210,7 +56,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b8d6813b-2dd0-4e0f-aa1e-db96e061551a
+  uuid: fc2c23e6-5f7f-4a80-8240-89ca3d274fb1
   ws-opts:
     path: /
 - alterId: 0
@@ -223,7 +69,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ed15ce47-40ab-4233-85b1-6f27b2516b1b
+  uuid: 9561c1e7-5662-466e-b927-8694b7119dde
   ws-opts:
     headers:
       Host: cxsfvn.uhomdex.shop
@@ -238,7 +84,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ed15ce47-40ab-4233-85b1-6f27b2516b1b
+  uuid: 9561c1e7-5662-466e-b927-8694b7119dde
   ws-opts:
     headers:
       Host: zzrt.uhomdex.shop
@@ -253,7 +99,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ed15ce47-40ab-4233-85b1-6f27b2516b1b
+  uuid: 9561c1e7-5662-466e-b927-8694b7119dde
   ws-opts:
     headers:
       Host: hwtqcp.uhomdex.shop
@@ -268,7 +114,7 @@ proxies:
   tls: true
   type: vmess
   udp: true
-  uuid: ed15ce47-40ab-4233-85b1-6f27b2516b1b
+  uuid: 9561c1e7-5662-466e-b927-8694b7119dde
   ws-opts:
     headers:
       Host: qvxbtx.uhomdex.shop
@@ -283,7 +129,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b8d6813b-2dd0-4e0f-aa1e-db96e061551a
+  uuid: fc2c23e6-5f7f-4a80-8240-89ca3d274fb1
   ws-opts:
     path: /
 - alterId: 0
@@ -296,7 +142,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b8d6813b-2dd0-4e0f-aa1e-db96e061551a
+  uuid: fc2c23e6-5f7f-4a80-8240-89ca3d274fb1
   ws-opts:
     headers:
       Host: gw.alicdn.com
@@ -311,11 +157,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: b8d6813b-2dd0-4e0f-aa1e-db96e061551a
+  uuid: fc2c23e6-5f7f-4a80-8240-89ca3d274fb1
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: 99fcf0db-5e51-45d1-8242-72157930f9c7
+  password: 0e56cd6a-043e-47e3-a582-f37cfc190a24
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
