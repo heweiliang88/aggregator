@@ -9,13 +9,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: d7cea7ba-4189-4d4b-89b0-aaee7f0f8ce3
+  uuid: 7fcc381d-d400-4d37-8b67-d5d69cf81340
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: 中国联通节点1
-  password: b848803f-f7c0-4256-a241-fc5b6a8ff3de
+  password: 19f88999-9d6a-4680-893c-f4c2ccdb9cf7
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -23,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: b848803f-f7c0-4256-a241-fc5b6a8ff3de
+  password: 19f88999-9d6a-4680-893c-f4c2ccdb9cf7
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: b848803f-f7c0-4256-a241-fc5b6a8ff3de
+  password: 19f88999-9d6a-4680-893c-f4c2ccdb9cf7
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -39,7 +39,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: b848803f-f7c0-4256-a241-fc5b6a8ff3de
+  password: 19f88999-9d6a-4680-893c-f4c2ccdb9cf7
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -56,68 +56,8 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 273695bd-c2fb-4c54-9477-4b702a606242
+  uuid: 6da034c2-fc93-4f06-bee0-0714db94c61f
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-001
-  network: ws
-  port: 443
-  server: cxsfvn.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4147055f-48fe-4d62-badb-23c756d4db7d
-  ws-opts:
-    headers:
-      Host: cxsfvn.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-002
-  network: ws
-  port: 8443
-  server: zzrt.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4147055f-48fe-4d62-badb-23c756d4db7d
-  ws-opts:
-    headers:
-      Host: zzrt.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-003
-  network: ws
-  port: 8443
-  server: hwtqcp.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4147055f-48fe-4d62-badb-23c756d4db7d
-  ws-opts:
-    headers:
-      Host: hwtqcp.uhomdex.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 德国-法兰克福-004
-  network: ws
-  port: 443
-  server: qvxbtx.uhomdex.shop
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 4147055f-48fe-4d62-badb-23c756d4db7d
-  ws-opts:
-    headers:
-      Host: qvxbtx.uhomdex.shop
     path: /
 - alterId: 0
   cipher: auto
@@ -129,7 +69,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 273695bd-c2fb-4c54-9477-4b702a606242
+  uuid: 6da034c2-fc93-4f06-bee0-0714db94c61f
   ws-opts:
     path: /
 - alterId: 0
@@ -142,7 +82,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 273695bd-c2fb-4c54-9477-4b702a606242
+  uuid: 6da034c2-fc93-4f06-bee0-0714db94c61f
   ws-opts:
     headers:
       Host: gw.alicdn.com
@@ -157,11 +97,11 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 273695bd-c2fb-4c54-9477-4b702a606242
+  uuid: 6da034c2-fc93-4f06-bee0-0714db94c61f
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: b848803f-f7c0-4256-a241-fc5b6a8ff3de
+  password: 19f88999-9d6a-4680-893c-f4c2ccdb9cf7
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
