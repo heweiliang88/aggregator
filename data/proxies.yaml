@@ -9,13 +9,13 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 9f2d3575-d324-4e95-8bd9-adacb0a7b616
+  uuid: 7532a1e6-2583-40cb-a13b-2ade2ef0c793
   ws-opts:
     headers:
       Host: expired.example.com
     path: /expired
 - name: 中国联通节点1
-  password: b1f0366c-727e-4b09-8757-28664271528e
+  password: ae5892f4-173b-4ce3-b7a1-8ab2db7adf6f
   port: 5443
   server: 115.231.220.33
   skip-cert-verify: true
@@ -23,7 +23,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点
-  password: b1f0366c-727e-4b09-8757-28664271528e
+  password: ae5892f4-173b-4ce3-b7a1-8ab2db7adf6f
   port: 443
   server: 103.137.63.77
   skip-cert-verify: true
@@ -31,7 +31,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点2
-  password: b1f0366c-727e-4b09-8757-28664271528e
+  password: ae5892f4-173b-4ce3-b7a1-8ab2db7adf6f
   port: 443
   server: 118.232.199.29
   skip-cert-verify: true
@@ -39,7 +39,7 @@ proxies:
   type: trojan
   udp: true
 - name: 台湾高速节点3
-  password: b1f0366c-727e-4b09-8757-28664271528e
+  password: ae5892f4-173b-4ce3-b7a1-8ab2db7adf6f
   port: 443
   server: 118.232.199.14
   skip-cert-verify: true
@@ -56,7 +56,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc79f3e9-1d39-4c55-b67b-d6234d5395e9
+  uuid: e49839f5-390a-4e70-b879-f3bf34f809e2
   ws-opts:
     path: /
 - alterId: 0
@@ -69,7 +69,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc79f3e9-1d39-4c55-b67b-d6234d5395e9
+  uuid: e49839f5-390a-4e70-b879-f3bf34f809e2
   ws-opts:
     path: /
 - alterId: 0
@@ -82,7 +82,7 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc79f3e9-1d39-4c55-b67b-d6234d5395e9
+  uuid: e49839f5-390a-4e70-b879-f3bf34f809e2
   ws-opts:
     headers:
       Host: gw.alicdn.com
@@ -97,200 +97,14 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: fc79f3e9-1d39-4c55-b67b-d6234d5395e9
+  uuid: e49839f5-390a-4e70-b879-f3bf34f809e2
   ws-opts:
     path: /
 - name: 美国高速节点1
-  password: b1f0366c-727e-4b09-8757-28664271528e
+  password: ae5892f4-173b-4ce3-b7a1-8ab2db7adf6f
   port: 1443
   server: 144.34.178.66
   skip-cert-verify: true
   sni: node4.yuntongclouds.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1A
-  password: d1698d47-0bbd-4816-a903-4af8e63a981f
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1B
-  password: b1ce6150-81b7-4bba-a5f7-2c4323903846
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1C
-  password: f1fa8f28-8cd4-4953-8a10-8df1d20ff376
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1D
-  password: b7cb1e7b-0ae0-4735-a3aa-baaa385e635c
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1E
-  password: 564e8e5b-40f5-4e20-aac3-56ab6017dd15
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 安全加密 独家云端 节点-1F
-  password: d64cc6b8-ae09-4acf-bf07-ec6877bc8abb
-  port: 1081
-  server: hk01.0101.pw
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1A
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d1698d47-0bbd-4816-a903-4af8e63a981f
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1B
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b1ce6150-81b7-4bba-a5f7-2c4323903846
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1C
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: f1fa8f28-8cd4-4953-8a10-8df1d20ff376
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1D
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: b7cb1e7b-0ae0-4735-a3aa-baaa385e635c
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1E
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 564e8e5b-40f5-4e20-aac3-56ab6017dd15
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- alterId: 0
-  cipher: auto
-  name: 线路定制 家宽住宅原生IP-1F
-  network: ws
-  port: 443
-  server: hk02.0101.pw
-  servername: hk02.0101.pw
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: d64cc6b8-ae09-4acf-bf07-ec6877bc8abb
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /sdfasdf
-- name: 试用会员可用 限速节点-1A
-  password: d1698d47-0bbd-4816-a903-4af8e63a981f
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
-  type: trojan
-  udp: true
-- name: 试用会员可用 限速节点-1B
-  password: b1ce6150-81b7-4bba-a5f7-2c4323903846
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
-  type: trojan
-  udp: true
-- name: 试用会员可用 限速节点-1C
-  password: f1fa8f28-8cd4-4953-8a10-8df1d20ff376
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
-  type: trojan
-  udp: true
-- name: 试用会员可用 限速节点-1D
-  password: b7cb1e7b-0ae0-4735-a3aa-baaa385e635c
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
-  type: trojan
-  udp: true
-- name: 试用会员可用 限速节点-1E
-  password: 564e8e5b-40f5-4e20-aac3-56ab6017dd15
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
-  type: trojan
-  udp: true
-- name: 试用会员可用 限速节点-1F
-  password: d64cc6b8-ae09-4acf-bf07-ec6877bc8abb
-  port: 1083
-  server: dg3.0101.pw
-  skip-cert-verify: true
-  sni: dg3.0101.pw
   type: trojan
   udp: true
